@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        p {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+  <!-- 7. INTRODUCCIÓN AL DOM -->
+  <script src="main.js"></script>
+ <!-- Ejercicio 1 -->
+  <h1>7. INTRODUCCIÓN AL DOM</h1>
+ <h2>Ejercicio 1: Botón cambio de color</h2>
+ <p>Este es el primer párrafo.</p>
+ <p>Este es el segundo párrafo.</p>
+ <p>Este es el tercer párrafo.</p>
+ <button id="colorButton">Cambiar color a azul</button>
+ 
+
+ <!-- Ejercicio 2 -->
+ <h2>Ejercicio 2: Formulario con alerta</h2>
+ <form>
+     <label for="texto">Ingresa un texto:</label>
+     <input type="text" id="texto" placeholder="Escribe aquí">
+     <button type="button" id="alertButton">Mostrar Alerta</button>
+ </form>
+ 
+ <!-- 8. EVENTOS EN DOM -->
+
+ <!-- Ejercicio 1 -->
+ <h1>8. EVENTOS EN DOM</h1>
+ <h2>Ejercicio 1: Lista con elementos</h2>
+ <ul id="miLista">
+     <li>Elemento 1</li>
+     <li>Elemento 2</li>
+     <li>Elemento 3</li>
+     <li>Elemento 4</li>
+ </ul>
+
+ <!-- ejercicio 2 -->
+ <h2>Ejercicio 2: Campo de texto y botones</h2>
+    
+ <input type="text" id="campoTexto" placeholder="Ingresa algo">
+ <button id="deshabilitar">Deshabilitar Campo</button>
+ <button id="habilitar">Habilitar Campo</button>
+
+ <!-- 9. LOCALSTORAGE  -->
+
+ <!-- ejercicio 1 -->
+
+ <h1>9. LOCAL STORAGE</h1>
+ <h2>Ejercicio 1: Guardar y Mostrar Correo Electrónico</h2>
+
+    <!-- Formulario para ingresar el correo -->
+    <form id="formCorreo">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" required>
+        <button type="submit">Guardar Correo</button>
+    </form>
+
+    <!-- Div para mostrar el correo guardado -->
+    <div id="correoGuardado" class="correo-guardado"></div>
+</body>
+</html>
